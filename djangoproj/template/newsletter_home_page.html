@@ -1,0 +1,410 @@
+{% load static %}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style>
+#main
+{
+	background-image: url("{% static 'assets/images/news.jpg' %}") ;
+	background-size: cover;
+	background-size: no-repeat;
+	background-color: #1abc9c;
+	color: black;
+	padding-bottom: 400px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 20px !important;
+    letter-spacing: 4px;
+    opacity:0.9;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: black !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+    background-color: red !important;
+}
+.bg-1
+{
+	border-bottom: 1px solid;
+}
+.bg-3
+{
+	color: black;	
+	padding-bottom: 50px;
+}
+.bg4
+{
+	color: black;
+	
+	padding-bottom: 50px;
+}
+
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail p {
+    margin-top: 15px;
+    color: #555;
+}
+
+/* Black buttons with extra padding and without rounded borders */
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+
+/* On hover, the color of .btn will transition to white with black text */
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+
+.modal-header, h4, .close {
+    background-color: navy;
+    color: #fff !important;
+    text-align: center;
+    font-size: 30px;
+}
+
+.modal-header, .modal-body {
+    padding: 40px 50px;
+}
+
+.selectBox {
+        position: relative;
+    }
+.selectBox select {
+        width: 200%;
+        font-weight: bold;
+    }
+.overSelect {
+        position: absolute;
+        left: 0; right: 0; top: 0; bottom: 0;
+    }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  
+
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link href="http://cdn-na.infragistics.com/igniteui/2016.2/latest/css/themes/infragistics/infragistics.theme.css" rel="stylesheet" />
+<link href="http://cdn-na.infragistics.com/igniteui/2016.2/latest/css/structure/infragistics.css" rel="stylesheet" />
+<script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.8.3.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+<script src="http://cdn-na.infragistics.com/igniteui/2016.2/latest/js/infragistics.core.js"></script>
+<script src="http://cdn-na.infragistics.com/igniteui/2016.2/latest/js/infragistics.lob.js"></script>
+<link href="jquery.multiselect.css" rel="stylesheet" type="text/css">
+<script src=”http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js”></script>
+<script src=”js/multiselect-checkbox/jquery.multiselect.js”></script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css"
+    rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<link href="http://cdn.rawgit.com/davidstutz/bootstrap-multiselect/master/dist/css/bootstrap-multiselect.css"
+    rel="stylesheet" type="text/css" />
+<script src="http://cdn.rawgit.com/davidstutz/bootstrap-multiselect/master/dist/js/bootstrap-multiselect.js"
+    type="text/javascript"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+<script>
+$(function () {
+            $('#sportsNews').multiselect({includeSelectAllOption: true});
+
+     });
+$(function () {
+            $('#sportsnews').multiselect({includeSelectAllOption: true});
+
+     });
+$(function () {
+            $('#techNews').multiselect({includeSelectAllOption: true});
+
+     });
+$(function () {
+            $('#technews').multiselect({includeSelectAllOption: true});
+
+     });
+$(function () {
+            $('#Technews').multiselect({includeSelectAllOption: true});
+
+     });
+
+</script>
+</head>
+
+<body>
+
+<div class="container-fluid img responsive" id="main">
+	<!---<nav class="navbar navbar-default navbar-fixed-top">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span> 
+      			</button>
+      			<a class="navbar-brand" href="#">Home</a>
+    		</div>
+	    	<div class="collapse navbar-collapse" id="myNavbar">
+	      		<ul class="nav navbar-nav navbar-right">
+	        		<li><a href="#home">About</a></li>
+	        		<li><a href="#band">Contact</a></li>
+	        		<li><a href="#tour">SignIn</a></li>
+	        		<li><a href="#contact">SignUp</a></li>
+	        		<li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+	      		</ul>
+	    	</div>
+  		</div>
+	</nav>-->
+	
+	<div id="newsletter">
+		<h1 class="container-fluid" style="padding-top: 35px;font-family: Courier New;font-size: 50px"><b><center>The NewsLetter</b></center></h1>
+		<p><center>Read from where you want</center></p>
+		<h1 style="border-bottom: 1px solid"></h1>
+	</div>
+
+	<div class="container-fluid row text-center" style="padding-top: 50px;background-color: lightgray;margin-left: 150px;margin-right: 150px;">
+  		
+  		<div class="col-lg-4">
+   			<div class="thumbnail">
+   			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+   				
+				<div class="carousel-inner" role="listbox">
+			      <div class="item active">
+			        <img src="{% static 'assets\images\NBA.jpeg' %}" alt="sports" width="460" height="345" class="img responsive">
+			      </div>
+
+			      <div class="item">
+			        <img src="{% static 'assets\images\CricketIndia.jpeg' %}" alt="sports" width="460" height="345">
+			      </div>
+			    
+			      <div class="item">
+			        <img src="{% static 'assets\images\SG.jpeg' %}" alt="sports" width="460" height="345">
+		      	  </div>
+		      	</div>
+		    </div>
+      			<!-- <img src="{% static 'assets\images\olympic.jpg' %}" alt="sports"> -->
+      			<p><strong>Sports</strong></p>
+      			<button class="btn" data-toggle="modal" data-target="#myModalSports">Select Website</button>
+   		 		
+   		 	
+				<div class="modal fade" id="myModalSports" role="dialog">
+				  <div class="modal-dialog">
+				  	<div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal">&times;</button>
+				        <h4>Select Websites</h4>
+				      </div>
+				      <div class="modal-body">
+
+				      
+				      	<form action="{% url 'espn' %}" method="POST">{% csrf_token %}
+					     <div class="selectbox" class="container-fluid">
+					     	<h2>ESPN</h2>
+	                         <select id="sportsNews" multiple="multiple" name="sports">
+	                            <div class="overselect">
+	                                <option value="http://www.espn.in/football/">Football</option>
+	                                <option value="http://www.espn.in/cricket/">Cricket</option>
+	                                <option value="basketball">Basketball</option>
+	                                <option value="hockey">Hockey</option>
+	                            </div>
+	                            
+
+	                         </select>
+	                         <h2>Tensports</h2>
+	                         <select id="sportsnews" multiple="multiple" name="sports">
+	                            <div class="overselect">
+	                                <option value="http://www.espn.in/football/">Footbal</option>
+	                                <option value="http://www.espn.in/cricket/">Cricke</option>
+	                                <option value="http://www.espn.in/">Basketbal</option>
+	                                <option value="hockey">Hocke</option>
+	                            </div>
+	                         </select>
+	                         
+                      	 </div>
+					     	<br>
+					       <input type="submit" class="btn btn-info" value="Get News"> 
+					       
+				        </form>
+				    </div>
+				      <div class="modal-footer">
+				        <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal" style="background-color: navy">
+				          <span class="glyphicon glyphicon-remove"></span>Cancel
+				        </button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+	    </div>
+
+	   <div class="col-lg-4">
+		    <div class="thumbnail">
+		      <img src="{% static 'assets\images\tech2.jpg' %}" alt="New York">
+		      <p><strong>Technology</strong></p>
+		      <button class="btn" data-toggle="modal" data-target="#myModalTech">Select Website</button>
+   		 		
+   		 		
+				<div class="modal fade" id="myModalTech" role="dialog">
+				  <div class="modal-dialog">
+				  	<div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal">&times;</button>
+				        <h4>Select Websites</h4>
+				      </div>
+				      <div class="modal-body">
+
+				      
+				      	<form action="{% url 'technology' %}" method="POST">{% csrf_token %}
+					     <div class="selectbox" class="container-fluid">
+					     	<h2>Tech2</h2>
+	                         <select id="techNews" multiple="multiple" name="tech">
+	                            <div class="overselect">
+	                                <option value="http://tech.firstpost.com/category/news-analysis">News And Analysis</option>
+	                                <option value="http://tech.firstpost.com/category/biztech">BIZTECH</option>
+	                                <option value="http://tech.firstpost.com/category/gaming">Gaming</option>
+	                                <option value="http://tech.firstpost.com/category/startup">Start Up</option>
+	                            </div>
+	                            
+
+	                         </select>
+	                         <h2>GIZMODO</h2>
+	                         <select id="technews" multiple="multiple" name="sports">
+	                            <div class="overselect">
+	                                <option value="http://www.gizmodo.in/news">News</option>
+	                                <option value="http://www.gizmodo.in/gadgets">Gadgets</option>
+	                                <option value="http://www.gizmodo.in/science">Science</option>
+	                                <option value="http://www.gizmodo.in/software">Software</option>
+	                            </div>
+	                         </select>
+
+	                         <h2>The Verge</h2>
+	                         <select id="Technews" multiple="multiple" name="sports">
+	                            <div class="overselect">
+	                                <option value="http://www.theverge.com/tech">Tech</option>
+	                                <option value="http://www.theverge.com/science">Science</option>
+	                                <option value="http://www.theverge.com/culture">Culture</option>
+	                                <option value="http://www.theverge.com/transportation">All Transportation</option>
+	                            </div>
+	                         </select>
+	                         
+                      	 </div>
+					     	<br>
+					       <input type="submit" class="btn btn-info" value="Get News"> 
+					       
+				        </form>
+				    </div>
+				      <div class="modal-footer">
+				        <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal" style="background-color: navy">
+				          <span class="glyphicon glyphicon-remove"></span>Cancel
+				        </button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+		    </div>
+  		</div>
+  
+	  <div class="col-lg-4">
+	    <div class="thumbnail">
+	      <img src="{% static 'assets\images\world.jpg' %}" alt="San Francisco">
+	      <p><strong>World</strong></p>
+	      <button class="btn">Select Website</button>
+	    </div>
+	 </div>
+	    <br>
+	  
+	 <!-- <div class="col-lg-4">
+	  	<div class="thumbnail">
+	  		<img src="{% static 'assets\images\Narendra.jpg' %}" alt="New York">
+		      <p><strong>Politics-India</strong></p>
+		    <button class="btn">Select Website</button>
+	  	</div>
+	  </div> -->
+	 <br>
+	 </div> 
+
+	
+
+</div>
+
+<br>
+
+	<div class="container-fluid" margin-left: 50px;margin-right: 50px;">
+		<h1 style="border-bottom: 1px solid ;color: blue;"><center>In Short News</center></h1>
+		
+			{% for i in news %}
+				<h2 style="color: grey">{{i}}</h2>
+			{% endfor %}
+		
+	</div>
+
+	<div class="container-fluid bg5" style="background-color: black; color: grey;padding-bottom: 23px">
+		<h3><center>Theme By Kunal Mehta</center></h3>
+	</div>
+</body>
+</html>

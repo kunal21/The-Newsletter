@@ -1,0 +1,12 @@
+<html>
+<body>
+<h1><center>First Django Web-Page</center></h1>
+<h1>{{title}}</h1>
+{% for i in object_list %}
+
+<a href='{% url "detail" id=i.id %}'>{{i.title}}</a><br>
+
+
+{% endfor %}
+</body>
+</html>

@@ -1,0 +1,41 @@
+{% load static %}
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="{% static 'assets/css/style.css' %}" />
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+<a class="btn btn-default" href="#" role="button">Link</a>
+<button class="btn btn-default" type="submit">Button</button>
+<input class="btn btn-default" type="button" value="Input">
+<input class="btn btn-default" type="submit" value="Submit">
+<h1><center>First Bootstrap Page</center></h1>
+</div>
+<div>
+<img src="{% static 'assets/images/flowers.jpg' %}" width="100%" height="10%">
+</div>
+{% block content %}
+<h1><center>First Django Web-Page</center></h1>
+<h1>{{title}}</h1>
+
+{% for i in object_list %}
+
+<a href='{% url "detail" id=i.id %}'>{{i.title}}</a><br>
+
+{{i.content}}<br>
+{{i.timestamp}}<br>
+{{i.updated}}<br>
+{{i.id}}<br>
+
+
+{% endfor %}
+
+{% endblock content %}
+
+</div>
+</body>
+</html>

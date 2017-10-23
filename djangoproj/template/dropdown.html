@@ -1,0 +1,184 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>jQuery Multi Select Dropdown with Checkboxes</title>
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+<script type="text/javascript" src="lodash.js"></script>.
+<script type="text/javascript" src="angularjs-dropdown-multiselect.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link href="http://cdn-na.infragistics.com/igniteui/2016.2/latest/css/themes/infragistics/infragistics.theme.css" rel="stylesheet" />
+<link href="http://cdn-na.infragistics.com/igniteui/2016.2/latest/css/structure/infragistics.css" rel="stylesheet" />
+<script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.8.3.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+<script src="http://cdn-na.infragistics.com/igniteui/2016.2/latest/js/infragistics.core.js"></script>
+<script src="http://cdn-na.infragistics.com/igniteui/2016.2/latest/js/infragistics.lob.js"></script>
+<link href="jquery.multiselect.css" rel="stylesheet" type="text/css">
+<script src=”http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js”></script>
+<script src=”js/multiselect-checkbox/jquery.multiselect.js”></script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css"
+    rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<link href="http://cdn.rawgit.com/davidstutz/bootstrap-multiselect/master/dist/css/bootstrap-multiselect.css"
+    rel="stylesheet" type="text/css" />
+<script src="http://cdn.rawgit.com/davidstutz/bootstrap-multiselect/master/dist/js/bootstrap-multiselect.js"
+    type="text/javascript"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script type="text/javascript">
+var x = localStorage.x;
+document.write(x);
+        $(function () {
+            $('#sportsNews').multiselect({
+                includeSelectAllOption: true
+            });
+            $('#btnSelected').click(function () {
+                var selected = $("#sportsNews option:selected");
+                var message = "";
+                selected.each(function () {
+                    message += $(this).text() + " " + "\n";
+                });
+                document.write(message);
+            });
+        });
+</script>
+
+
+<style>
+    .selectBox {
+        position: relative;
+    }
+    .selectBox select {
+        width: 100%;
+        font-weight: bold;
+    }
+    .overSelect {
+        position: absolute;
+        left: 0; right: 0; top: 0; bottom: 0;
+    }
+</style>
+
+</head>
+<body>
+<select multiple ng-model="selectedValues">
+
+<div ng-dropdown-multiselect="" options="example8data" selected-model="example8model" checkboxes="true"></div>
+
+<script>
+$scope.example8model = []; $scope.example8data = [ {id: 1, label: "David"}, {id: 2, label: "Jhon"}, {id: 3, label: "Danny"}];
+
+</script>
+<div ng-app="">
+  <form>
+    Check to show a header:
+    <input type="checkbox" ng-model="myVar">
+  </form>
+  <h1 ng-show="myVar">My Header</h1>
+</div>
+
+<div class="selectbox">
+    <select id="sportsNews" multiple="multiple">
+    <div class="overselect">
+        <option value="1">Football</option>
+        <option value="2">Cricket</option>
+        <option value="3">Basketball</option>
+        <option value="4">Hockey</option>
+    </div>
+    </select>
+</div>
+<br/>
+<div>
+<input type="button" id="btnSelected" value="Get News" onclick="printselected()" />
+</div>
+</body>
+</html>
+
+
+<div style="background-color: #42247A;">
+                            <label for="psw"><h1>ESPN</h1></label>
+                            <form>
+                            <div class="selectbox" class="container-fluid">
+                                <select id="sportsNews" multiple="multiple">
+                                <div class="overselect">
+                                    <option value="football">Football</option>
+                                    <option value="cricket">Cricket</option>
+                                    <option value="basketball">Basketball</option>
+                                    <option value="hockey">Hockey</option>
+                                </div>
+                                </select>
+                            </div>
+                            <br>
+                            <input type="submit" value="Get News">
+                            <br/>
+                        </form>
+</div>
+
+
+<script type="text/javascript">
+
+
+    $(function () {
+            $('#sportsNews').multiselect({includeSelectAllOption: true});
+
+            $('#btnSelected').click(function() 
+            {
+                var selected = $("#sportsNews option:selected");
+                var message = "";
+                selected.each(function() 
+                {
+                    message += $(this).text() + " " + "\n";
+                    return false;
+                });
+               
+
+           });
+            
+        });
+
+</script>
+
+
+
+<div class = "cd-dropdown-wrapper">
+                            <a class = "cd-dropdown-trigger">ESPN</a>
+                                <nav class = "cd-dropdown">
+                                    <li>
+                                
+                                      <lable><input type="checkbox" value="http://www.espn.in/cricket/" name="espn_sports[]">Football</lable><br>
+                                      <lable><input type="checkbox" value="http://www.espn.in/football/" name="espn_sports[]">Cricket</lable><br>
+
+                                    </li>
+                                </nav>
+                         </div>
+
+
+
+ $('#btnSelected').click(function() 
+            {
+                var selected = $("#sportsNews option:selected");
+                var message = "";
+                selected.each(function() 
+                {
+                    message += $(this).text() + " " + "\n";
+                    
+                });
+               
+
+           });
+
+<h2>Tensports</h2>
+                             <select id="sportsnews" multiple="multiple" name="sports">
+                                <div class="overselect">
+                                    <option value="http://www.google.com/">Football</option>
+                                    <option value="http://www.google.com/">Cricket</option>
+                                </div>
+                             </select>

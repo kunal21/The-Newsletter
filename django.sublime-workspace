@@ -1,0 +1,918 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"d",
+				"datasets"
+			],
+			[
+				"i",
+				"import"
+			],
+			[
+				"s",
+				"sklearn"
+			],
+			[
+				"f",
+				"from"
+			],
+			[
+				"k",
+				"klargest"
+			],
+			[
+				"H",
+				"HPI_data"
+			],
+			[
+				"pi",
+				"pickle_in"
+			],
+			[
+				"pic",
+				"pickle_out"
+			],
+			[
+				"stat",
+				"state_list"
+			],
+			[
+				"st",
+				"states"
+			],
+			[
+				"da",
+				"dataframe"
+			],
+			[
+				"ma",
+				"main_df"
+			],
+			[
+				"Da",
+				"DataFrame"
+			],
+			[
+				"sta",
+				"states"
+			],
+			[
+				"twe",
+				"tweet"
+			],
+			[
+				"t",
+				"tweepy"
+			],
+			[
+				"n",
+				"number"
+			],
+			[
+				"re",
+				"reversed_list"
+			],
+			[
+				"c",
+				"copied_list"
+			],
+			[
+				"lis",
+				"list2"
+			],
+			[
+				"list",
+				"lists"
+			],
+			[
+				"fa",
+				"factorial"
+			],
+			[
+				"newsletter",
+				"newsletter_home_page"
+			],
+			[
+				"tr",
+				"transpose_matrix"
+			],
+			[
+				"m",
+				"matrix"
+			],
+			[
+				"l",
+				"lists"
+			],
+			[
+				"r",
+				"r"
+			],
+			[
+				"co",
+				"container-fluid"
+			],
+			[
+				"cn",
+				"content"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"backgrou",
+				"background-repeat"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"im",
+				"image"
+			],
+			[
+				"image",
+				"image_src"
+			],
+			[
+				"my",
+				"myCarousel"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"news",
+				"news"
+			],
+			[
+				"html",
+				"html"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"conta",
+				"container-fluid"
+			],
+			[
+				"col",
+				"col-sm-4"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"pD",
+				"padding-left"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"ne",
+				"next_news"
+			],
+			[
+				"o",
+				"overselect"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"spo",
+				"sportsNews"
+			],
+			[
+				"gr",
+				"grades"
+			],
+			[
+				"a",
+				"add_grades"
+			],
+			[
+				"grad",
+				"grades"
+			],
+			[
+				"ur",
+				"urllib"
+			],
+			[
+				"src",
+				"srcs"
+			],
+			[
+				"wa",
+				"wallpapers"
+			],
+			[
+				"url",
+				"url"
+			],
+			[
+				"wall",
+				"wallpapers"
+			],
+			[
+				"w",
+				"wallpapers"
+			],
+			[
+				"sou",
+				"soup_decode"
+			],
+			[
+				"imag",
+				"images_url"
+			],
+			[
+				"esp",
+				"espn_sports"
+			],
+			[
+				"se",
+				"selectBox"
+			],
+			[
+				"es",
+				"espn_football"
+			],
+			[
+				"li",
+				"list1"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"btn",
+				"btnSelected"
+			],
+			[
+				"sp",
+				"sports"
+			],
+			[
+				"str",
+				"str_n"
+			],
+			[
+				"g",
+				"getElementById"
+			],
+			[
+				"e",
+				"getElementById"
+			],
+			[
+				"get",
+				"getvalues"
+			],
+			[
+				"fo",
+				"form-control"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"sports",
+				"sports_cat"
+			],
+			[
+				"b",
+				"button-group"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"bu",
+				"button-group"
+			],
+			[
+				"cou",
+				"count"
+			],
+			[
+				"count",
+				"count_replace"
+			],
+			[
+				"mu",
+				"mult"
+			],
+			[
+				"mul",
+				"mult_index"
+			],
+			[
+				"cont",
+				"container-fluid"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"new",
+				"news_text"
+			],
+			[
+				"temp",
+				"temperature"
+			],
+			[
+				"tem",
+				"temperature"
+			],
+			[
+				"fin",
+				"find_all"
+			],
+			[
+				"he",
+				"help_handler"
+			],
+			[
+				"test",
+				"test_handler"
+			],
+			[
+				"spor",
+				"sports_news_selector"
+			],
+			[
+				"ca",
+				"callback_query"
+			],
+			[
+				"me",
+				"message_id"
+			],
+			[
+				"cal",
+				"callback_query"
+			],
+			[
+				"q",
+				"query"
+			],
+			[
+				"I",
+				"InlineKeyboardMarkup"
+			],
+			[
+				"reply",
+				"reply_markup"
+			],
+			[
+				"args",
+				"args"
+			],
+			[
+				"updat",
+				"update"
+			],
+			[
+				"ch",
+				"chat_id"
+			],
+			[
+				"u",
+				"update"
+			],
+			[
+				"count_",
+				"count_news"
+			],
+			[
+				"coun",
+				"count_href"
+			],
+			[
+				"dta",
+				"data_text"
+			],
+			[
+				"data",
+				"data_text"
+			],
+			[
+				"imgU",
+				"imgUrl"
+			],
+			[
+				"h",
+				"href"
+			],
+			[
+				"artic",
+				"articletext"
+			],
+			[
+				"fi",
+				"find_all"
+			],
+			[
+				"fil",
+				"Filters"
+			],
+			[
+				"stock",
+				"stock_list"
+			],
+			[
+				"C",
+				"CommandHandler"
+			],
+			[
+				"sy",
+				"symbols"
+			],
+			[
+				"sym",
+				"symbolslist"
+			],
+			[
+				"espn",
+				"espn_fb_url"
+			],
+			[
+				"B",
+				"BeautifulSoup"
+			],
+			[
+				"links",
+				"links_edited"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Program Files/Python35/python-programs/botcube_bot.py",
+			"settings":
+			{
+				"buffer_size": 1808,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Program Files/Python35/python-programs/bot.py",
+			"settings":
+			{
+				"buffer_size": 327,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Program Files/Python35/googleprice/botcube_bot.py",
+			"settings":
+			{
+				"buffer_size": 1580,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/django"
+	],
+	"file_history":
+	[
+		"/C/Program Files/Python35/sk.py",
+		"/C/Program Files/Python35/tpanda.py",
+		"/C/django/djangoproj/djangoproj/urls.py",
+		"/C/django/djangoproj/cify/cify/models.py",
+		"/C/django/djangoproj/cify/views.py",
+		"/C/django/djangoproj/cify/cifyurls.py",
+		"/C/django/djangoproj/newsletter/views.py",
+		"/C/django/djangoproj/newsletter/newsletterurls.py",
+		"/C/Program Files/Python35/python-programs/TCSFactors.py",
+		"/C/python-programs/pandas.py",
+		"/C/python-programs/botcube_bot.py",
+		"/C/Program Files/Python35/Lib/t.py",
+		"/C/python-programs/IS_prac1.py",
+		"/C/python-programs/IS_prac4.py",
+		"/C/python-programs/IS_prac2.py",
+		"/C/Program Files/Python35/twitter.py",
+		"/C/cb projects/ArraysandStrings/tp3.c",
+		"/C/python-programs/7-5.py",
+		"/C/Program Files (x86)/Sublime Text 3/http",
+		"/C/python-programs/misscann.py",
+		"/C/python-programs/calender.py",
+		"/C/python-programs/IS_dict(2).py",
+		"/C/python-programs/IS_dict.py",
+		"/C/django/djangoproj/template/cifylogin.html",
+		"/C/python-programs/twitter_streaming.py",
+		"/C/django/djangoproj/newsletter/forms.py",
+		"/C/django/djangoproj/template/newsletter_espn.html",
+		"/C/django/djangoproj/template/newsletter_espn_text.html",
+		"/C/python-programs/rvrsarray.py",
+		"/C/django/djangoproj/template/newsletter_home_page.html",
+		"/C/django/djangoproj/cify/manage.py",
+		"/C/django/djangoproj/posts/urls.py",
+		"/C/Program Files/Python35/googleprice/scrapecrawler.py",
+		"/C/Program Files/Python35/googleprice/ttt.py",
+		"/C/django/djangoproj/template/index.html",
+		"/C/Program Files/Python35/googleprice/scrape.py",
+		"/C/Program Files/Python35/googleprice/myscrape.py",
+		"/C/python-programs/ttt.py",
+		"/C/python-programs/wallpaper/wallpaper.py",
+		"/C/django/djangoproj/template/dropdown.html",
+		"/C/django/djangoproj/template/newsletter_technology.html",
+		"/C/python-programs/reversearray.py",
+		"/C/django/djangoproj/connectify/connectifyurls.py",
+		"/C/django/djangoproj/connectify/urls.py",
+		"/C/django/djangoproj/template/rvrsarray.py",
+		"/C/django/djangoproj/template/tp.html",
+		"/C/python-programs/classesandobjects.py",
+		"/C/Program Files/Python35/googleprice/wallpaper.py",
+		"/C/python-programs/tp.py",
+		"/C/python-programs/flatten.py",
+		"/C/Program Files/Python35/gsearch.py",
+		"/C/python-programs/superascii.py",
+		"/C/python-programs/StringArithmetic.py",
+		"/C/Program Files/Python35/googleprice/threads.py",
+		"/C/Program Files/Python35/googleprice/idk.py",
+		"/C/Program Files/Python35/googleprice/mechanize.py",
+		"/C/Program Files/Python35/googleprice/Me_Pa_bot.py",
+		"/C/Program Files/Python35/Pa_Me_bot.py",
+		"/C/Program Files/Python35/googleprice/botcube_bot.py",
+		"/C/django/djangoproj/djangoproj/settings.py",
+		"/C/django/djangoproj/posts/models.py",
+		"/C/django/djangoproj/newsletter/models.py",
+		"/C/django/djangoproj/template/newsletter_about.html",
+		"/C/django/djangoproj/template/post_details.html",
+		"/C/python-programs/news_letter.py",
+		"/C/django/djangoproj/static/css/style.css",
+		"/C/django/djangoproj/template/base.html",
+		"/C/django/djangoproj/posts/views.py",
+		"/C/django/djangoproj/posts/admin.py",
+		"/C/django/djangoproj/template/post_form.html",
+		"/C/Program Files/Python35/googleprice/symbols.txt",
+		"/C/python-programs/webcrawler/symbols.txt",
+		"/C/python-programs/webscrapping.py",
+		"/C/python-programs/hitntrail.py",
+		"/C/django/djangoproj/newsletter/newsletter.urls",
+		"/C/django/djangoproj/static/bootstrap-3.3.7-dist/css/bootstrap.min.css",
+		"/C/django/djangoproj/posts/forms.py",
+		"/C/python-programs/news.py",
+		"/C/django/djangoproj/static/css/images/sunset.jpg",
+		"/C/django/djangoproj/static/css/images/background.png",
+		"/C/django/djangoproj/static/css/base.css",
+		"/C/django/djangoproj/posts/static/posts/images/background.gif",
+		"/C/django/djangoproj/djangoproj/static/css/base.css",
+		"/C/django/djangoproj/posts/static/posts/style.css",
+		"/C/django/Lib/site-packages/django/contrib/messages/api.py",
+		"/C/django/Lib/site-packages/django/db/models/base.py",
+		"/C/python-programs/palindex.py",
+		"/C/python-programs/nobitastring.py",
+		"/C/python-programs/easycalculations.py",
+		"/C/django/djangoproj/posts/apps.py",
+		"/C/django/djangoproj/posts/migrations/__init__.py",
+		"/C/django/djangoproj/polls/models.py",
+		"/C/python-programs/stocks.py",
+		"/C/django/djangoproj/polls/urls.py",
+		"/C/django/djangoproj/polls/views.py",
+		"/C/django/djangoproj/posts",
+		"/C/python-programs/fbchat.py",
+		"/C/python-programs/panagram.py",
+		"/C/python-programs/cipher.py",
+		"/C/python-programs/stringrecur.py",
+		"/C/django/djangoproj/polls/apps.py",
+		"/C/django/djangoproj/polls/tests.py",
+		"/C/django/djangoproj/djangoproj/templates/index.html",
+		"/C/django/djangoproj/polls/admin.py",
+		"/C/python-programs/upvote.py",
+		"/C/Users/lenovo/Downloads/LATEST_LIBXML2_IS_2.9.4",
+		"/C/django/Lib/site-packages/django/test/client.py",
+		"/C/django/Include/asdl.h",
+		"/C/django/djangoproj/posts/stringrecurrence.py",
+		"/C/python-programs/ifelse.py",
+		"/C/python-programs/for.py",
+		"/C/sublime-html-css-js/nextpage.html",
+		"/C/Users/lenovo/Desktop/Study/WT/HTML5/Attributes/AutoComp.html",
+		"/C/Users/lenovo/Desktop/Study/WT/HTML5/list.html",
+		"/C/Users/lenovo/Desktop/Study/WT/HTML5/HTML5_InputElements.html",
+		"/C/Users/lenovo/Desktop/Study/WT/HTML5/HTML5_Symantics.html",
+		"/C/Users/lenovo/Desktop/Study/WT/HTML5/Canvas_Rect.html",
+		"/C/sublime-html-css-js/login.html",
+		"/C/sublime-html-css-js/multiplicationtable.html",
+		"/C/Users/lenovo/Desktop/Study/WT/HTML5/list.hmtl",
+		"/C/sublime-html-css-js/form.php",
+		"/C/sublime-html-css-js/phpform.html",
+		"/C/sublime-html-css-js/Macro.html",
+		"/C/sublime-html-css-js/Birds.html",
+		"/C/sublime-html-css-js/Night.html",
+		"/C/sublime-html-css-js/landscape.html",
+		"/C/sublime-html-css-js/Wildlife.html",
+		"/C/sublime-html-css-js/potrait.js"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 135.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Program Files/Python35/python-programs/botcube_bot.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1808,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								361,
+								361
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Program Files/Python35/python-programs/bot.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Program Files/Python35/googleprice/botcube_bot.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1580,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 39.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "django.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 63.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
